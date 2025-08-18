@@ -1,0 +1,1 @@
+/home/masrobot/.config/omarchy/current/theme/neovim.lua
