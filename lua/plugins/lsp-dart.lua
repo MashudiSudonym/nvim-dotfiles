@@ -5,7 +5,8 @@ return {
       servers = {
         dartls = {
           cmd = {
-            "dart",
+            --"dart", --enable if not use fvm
+            vim.fn.getcwd() .. "/home/masrobot/fvm/default/bin/dart",
             "language-serve",
             "--protocol=lsp",
           },

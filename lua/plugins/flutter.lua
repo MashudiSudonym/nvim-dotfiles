@@ -6,6 +6,7 @@ return {
   },
   config = function()
     require("flutter-tools").setup({
+      flutter_path = "/home/masrobot/fvm/default/bin/flutter", -- disable it if not use fvm
       widget_guides = {
         enabled = true,
       },
