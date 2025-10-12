@@ -21,7 +21,10 @@ return {
       },
       lsp = {
         color = { enabled = true },
-        on_attach = function(_, _) end, -- placeholder biar ga ada warning
+        on_attach = function(_, _) end,
+        settings = {
+          lineLength = 80,
+        },
       },
     })
 
